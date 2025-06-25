@@ -1,0 +1,21 @@
+install nest globally 
+>npm install -g @nestjs/cli
+
+create nestjs app in current folder 
+>nest new .
+>nest new folderName
+
+create new module 
+nest g module users 
+
+create new controller 
+nest g controller users 
+
+create new providers
+nest g service users 
+
+need to user schema validations as dto 
+npm i @nestjs/mapped-types -D // -D for dev dependencies 
+
+validations library 
+npm i class-validator class-transformer
